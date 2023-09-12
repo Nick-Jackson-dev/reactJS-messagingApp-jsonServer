@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "displayName": "bowser",
+      "photoSource": "bowserjpg.jpg",
+      "online": false
+    },
+    {
+      "id": 2,
+      "displayName": "link",
+      "photoSource": "link.png",
+      "online": false
+    },
+    {
+      "id": 3,
+      "displayName": "luigi",
+      "photoSource": "luigi.png",
+      "online": false
+    },
+    {
+      "id": 4,
+      "displayName": "Shy Guy",
+      "photoSource": "shyguy.jpg",
+      "online": false
+    },
+    {
+      "id": 5,
+      "displayName": "Tom",
+      "photoSource": "moon.jpg",
+      "online": false
+    },
+    {
+      "id": 6,
+      "displayName": "Bigs",
+      "photoSource": "mountain.jpg",
+      "online": false
+    },
+    {
+      "id": 7,
+      "displayName": "Geralt",
+      "photoSource": "witcher.jpg",
+      "online": false
+    }
+  ],
+  "conversations": [
+    {
+      "recipientIds": [
+        2,
+        5
+      ],
+      "id": "1"
+    },
+    {
+      "recipientIds": [
+        2,
+        3
+      ],
+      "id": "2"
+    },
+    {
+      "recipientIds": [
+        2,
+        7
+      ],
+      "id": "3"
+    },
+    {
+      "recipientIds": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "id": "4"
+    },
+    {
+      "recipientIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "id": "5"
+    },
+    {
+      "recipientIds": [
+        3,
+        4
+      ],
+      "id": "TImPRIy"
+    }
+  ],
+  "messages": [
+    {
+      "senderId": 2,
+      "content": "Hey Tom, what game are you from??",
+      "createdAt": "2023-09-12T15:36:32.041Z",
+      "conversationId": "1",
+      "id": 1
+    },
+    {
+      "senderId": 2,
+      "content": "Us Nintendo guys have to stick together!",
+      "createdAt": "2023-09-12T15:36:45.664Z",
+      "conversationId": "2",
+      "id": 3
+    },
+    {
+      "senderId": 2,
+      "content": "I hear you are a fellow swordsman! What is your style?",
+      "createdAt": "2023-09-12T15:37:02.368Z",
+      "conversationId": "3",
+      "id": 6
+    },
+    {
+      "senderId": 2,
+      "content": "Hey guys, I think we may have the power to really mess up Luigi!",
+      "createdAt": "2023-09-12T15:38:07.170Z",
+      "conversationId": "4",
+      "id": 8
+    },
+    {
+      "senderId": 2,
+      "content": "Just thought I'd start an open conversation.",
+      "createdAt": "2023-09-12T15:38:22.881Z",
+      "conversationId": "5",
+      "id": 9
+    },
+    {
+      "senderId": 3,
+      "content": "Absolutely Link. Say... I thought you didn't talk much.",
+      "createdAt": "2023-09-12T15:38:42.835Z",
+      "conversationId": "2",
+      "id": 11
+    },
+    {
+      "senderId": 3,
+      "content": "They always say you have to watch our for the quiet ones haha",
+      "createdAt": "2023-09-12T15:38:53.294Z",
+      "conversationId": "2",
+      "id": 12
+    },
+    {
+      "senderId": 3,
+      "content": "Thanks, Link. I have been meaning to say that I just feel like everyone is out to get me!",
+      "createdAt": "2023-09-12T15:47:50.953Z",
+      "conversationId": "5",
+      "id": 13
+    },
+    {
+      "senderId": 1,
+      "content": "Let's Get him!",
+      "createdAt": "2023-09-12T15:48:18.633Z",
+      "conversationId": "4",
+      "id": 14
+    },
+    {
+      "senderId": 7,
+      "content": "I operate under realistic physics, So I am sure you wouldn't understand",
+      "createdAt": "2023-09-12T15:49:43.701Z",
+      "conversationId": "3",
+      "id": 15
+    },
+    {
+      "senderId": 2,
+      "content": "Watching you I feel like your swords are just unrealistically sharp. You cut through bone like butter!",
+      "createdAt": "2023-09-12T15:50:21.776Z",
+      "conversationId": "3",
+      "id": 16
+    },
+    {
+      "senderId": 7,
+      "content": "And I haven't seen you pierce anything but blades of grass. Maybe your Graphics designers and animators should improve the graphics.",
+      "createdAt": "2023-09-12T15:51:02.065Z",
+      "conversationId": "3",
+      "id": 17
+    },
+    {
+      "senderId": 7,
+      "content": "And I haven't seen you pierce anything but blades of grass. Maybe your Graphics designers and animators should improve the graphics.",
+      "createdAt": "2023-09-12T15:51:02.065Z",
+      "conversationId": "4",
+      "id": 18
+    },
+    {
+      "senderId": 7,
+      "content": "Now, Now... I don't know the guy but I doubt he deserves it",
+      "createdAt": "2023-09-12T15:51:35.102Z",
+      "conversationId": "4",
+      "id": 19
+    },
+    {
+      "senderId": 5,
+      "content": "I don't quite understand why I am here.",
+      "createdAt": "2023-09-12T15:51:59.490Z",
+      "conversationId": "4",
+      "id": 20
+    },
+    {
+      "senderId": 6,
+      "content": "herpaderpa I am bigs",
+      "createdAt": "2023-09-12T15:58:00.246Z",
+      "conversationId": "5",
+      "id": 21
+    },
+    {
+      "senderId": 1,
+      "content": "I am confused",
+      "createdAt": "2023-09-12T16:00:18.443Z",
+      "conversationId": "5",
+      "id": 22
+    },
+    {
+      "senderId": 1,
+      "content": "still confused",
+      "createdAt": "2023-09-12T16:03:37.773Z",
+      "conversationId": "5",
+      "id": 23
+    },
+    {
+      "senderId": 4,
+      "content": "I think you are right - everyone is conspiring against you. Tom what just telling me about it and is confused about everything",
+      "createdAt": "2023-09-12T16:14:13.831Z",
+      "conversationId": "TImPRIy",
+      "id": 24
+    }
+  ]
+}

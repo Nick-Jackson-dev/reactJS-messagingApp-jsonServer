@@ -1,0 +1,98 @@
+.message-container {
+  --incoming-bubble-color: rgba(240, 240, 200, 0.99);
+  --incoming-sender-color: rgba(240, 240, 200, 0.99);
+  --outgoing-bubble-color: rgba(200, 200, 240, 0.99);
+  --outgoing-sender-color: rgba(200, 200, 240, 0.99);
+
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  position: relative;
+  overflow-y: scroll;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+  min-height: 250px;
+  max-height: calc(50vh);
+  font-size: 0.9em;
+}
+
+/* general styles */
+.sender {
+  display: flex;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  max-width: min-content;
+  text-align: center;
+}
+
+/* If text, not avatar */
+/* .sender > p{
+    width: min-content;
+} */
+
+.bubble {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.sent-time {
+  text-align: right;
+  margin-left: auto;
+  color: darkcyan;
+  font-size: 0.75em;
+}
+
+/* incoming message styles */
+.sender-incoming :last-child {
+  margin-right: auto;
+  margin-left: 1rem;
+  /* If text, not avatar */
+  /* width: min-content;
+  color: darkgrey; */
+}
+.sender-incoming :first-child {
+  margin-right: auto;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  /* If text, not avatar */
+  /* background-color: var(--incoming-sender-color);
+  color: darkgray;
+  font-weight: bold; */
+}
+.bubble-incoming {
+  background: var(--incoming-bubble-color);
+  margin-right: auto;
+  margin-left: 3rem;
+  border-radius: 0.1rem 1rem 1rem 1rem;
+}
+
+/* outgoing message styles */
+.sender-outgoing {
+  margin-left: auto;
+}
+.sender-outgoing :first-child {
+  margin-right: 1rem;
+  margin-left: auto;
+  /* If text, not avatar */
+  /* width: min-content;
+  color: darkgrey; */
+}
+.sender-outgoing :last-child {
+  margin-left: auto;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  /* If text, not avatar */
+  /* width: 3rem;
+  background-color: var(--outgoing-sender-color);
+  color: darkgray;
+  font-weight: bold; */
+}
+.bubble-outgoing {
+  background: var(--outgoing-bubble-color);
+  margin-left: auto;
+  margin-right: 3rem;
+  border-radius: 1rem 0.1rem 1rem 1rem;
+}
